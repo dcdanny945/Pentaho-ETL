@@ -17,11 +17,11 @@ Star schema data warehouse for a global digital retailer, built with Pentaho (ET
 
 ## ETL Pipelines (Pentaho)
 
-### fact_sales Transformation
+### fact_sales ETL
 
 ![fact_sales pipeline](images/fact_sales.png)
 
-### fact_c_subscription Transformation
+### fact_c_subscription ETL
 
 ![fact_c_subscription pipeline](images/fact_c_subscription.png)
 
@@ -29,7 +29,7 @@ Star schema data warehouse for a global digital retailer, built with Pentaho (ET
 
 ![dim_customer SCD Type 2](images/dim_customer_scd.png)
 
-### dim_currency Transformation
+### dim_currency ETL
 
 ![dim_currency pipeline](images/dim_currency.png)
 
