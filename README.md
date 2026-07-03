@@ -131,5 +131,3 @@ Built by **Danny Chen**, a Master of Business Analytics candidate at Deakin Univ
 
 
 
-### Star Schema (ER Diagram)
-![Star Schema ER Diagram](images/star_schema.png)
