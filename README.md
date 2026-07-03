@@ -72,35 +72,35 @@ Each dimension and fact table is loaded by its own Pentaho transformation. Highl
 
 ![fact_sales pipeline](images/fact_sales.png)
 
-**`fact_c_subscription` ETL
+**`fact_c_subscription` ETL**
 
 ![fact_c_subscription pipeline](images/fact_c_subscription.png)
 
-**`dim_customer` — SCD Type 2** — multiple source files (customer type, status, permissions, interests) are joined, age group and record dates are derived, and market name is resolved from country and state before the SCD Type 2 load.
+**`dim_customer` — SCD Type 2**, multiple source files (customer type, status, permissions, interests) are joined, age group and record dates are derived, and market name is resolved from country and state before the SCD Type 2 load.
 
 ![dim_customer SCD Type 2](images/dim_customer_scd.png)
 
 *(Additional pipelines for `dim_product`, `dim_store`, `dim_package`, `dim_currency`, and `stg_currency_rate` are included in `images/`.)*
 
 
-**`dim_product` ETL
+**`dim_product` ETL**
 
 ![dim_currency pipeline](images/product_dim.png)
 
-**`dim_store` ETL
+**`dim_store` ETL**
 
 ![dim_currency pipeline](images/store_dim.png)
 
-**`dim_package` ETL
+**`dim_package` ETL**
 
 ![dim_currency pipeline](images/package_dim.png)
 
 
-**`dim_currency` ETL
+**`dim_currency` ETL**
 
 ![dim_currency pipeline](images/dim_currency.png)
 
-**`stg_currency_rate` ETL
+**`stg_currency_rate` ETL**
 
 ![stg_currency_rate pipeline](images/stg_currency_rate.png)
 
