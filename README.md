@@ -33,6 +33,18 @@ Star schema data warehouse for a global digital retailer, built with Pentaho (ET
 
 ![dim_currency pipeline](images/dim_currency.png)
 
+### dim_product ETL
+
+![dim_currency pipeline](images/product_dim.png)
+
+### dim_package ETL
+
+![dim_currency pipeline](images/package_dim.png)
+
+### dim_store ETL
+
+![dim_currency pipeline](images/store_dim.png)
+
 ### stg_currency_rate (USD Conversion Lookup)
 
 ![stg_currency_rate pipeline](images/stg_currency_rate.png)
